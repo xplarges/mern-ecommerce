@@ -1,21 +1,23 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <div>
       <img src="/src/assets/react.svg"></img>
-      <a href="/" className="site-title">
-        Site Name
+
+      <a className="site-title">
+        <Link to="/">Site Name</Link>
       </a>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/login">Login</a>
+          <Link to="/login">Login</Link>
         </li>
         <li>
-          <a href="/register">Register</a>
+          <Link to="/register">Register</Link>
         </li>
       </ul>
     </div>
