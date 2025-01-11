@@ -1,0 +1,23 @@
+.auth {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-mode .sign-up-form{
+    display: none;
+}
+
+.sign-up-mode .sign-in-form{
+    display: none;
+}
+
+.sign-in-mode .panel-right-panel{
+    display: none;
+}
+
+.sign-up-mode .panel-left-panel{
+    display: none;
+}

@@ -21,7 +21,7 @@ export default function Navbar() {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/login">Sign In</NavLink>
+          <NavLink to="/auth">Sign In</NavLink>
         </li>
       </ul>
     </nav>
